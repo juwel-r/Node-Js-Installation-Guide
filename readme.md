@@ -4,6 +4,13 @@
 
 Open **PowerShell** and run:
 
+To allow PowerShell to run local scripts, like your profile script (Microsoft.PowerShell_profile.ps1), while still keeping your system reasonably secure. By default running scripts is disabled on system.
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+
+```
+
 ```powershell
 winget install Schniz.fnm
 ````

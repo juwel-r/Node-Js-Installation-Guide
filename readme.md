@@ -10,6 +10,7 @@ To allow PowerShell to run local scripts, like your profile script (Microsoft.Po
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 
 ```
+Let's start install node by running cmd
 
 ```powershell
 winget install Schniz.fnm

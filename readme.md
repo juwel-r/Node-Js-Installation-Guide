@@ -26,6 +26,12 @@ You **must** add `fnm` to the **User Variables**, not the System Variables.
   `System Properties > Environment Variables > User Variables > Path > New`
 * Add a directory similar to the one below (your path may vary):
 
+  ```
+  %LOCALAPPDATA%\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe
+
+  ```
+  example:
+
 ```plaintext
 C:\Users\juwel\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe
 ```
@@ -46,6 +52,11 @@ fnm install 22
 
 Also add this directory to the **User Path** in environment variables:
 
+```
+%APPDATA%\fnm\aliases\default
+
+```
+example:
 ```plaintext
 C:\Users\juwel\AppData\Roaming\fnm\aliases\default
 ```
